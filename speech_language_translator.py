@@ -9,7 +9,6 @@ with sr.Microphone() as source:
 
 
 
-
 try:
     spoken_text = recognizer.recognize_google(audio, language='ta-IN')
     print("Spoken text Tamil):", spoken_text)
