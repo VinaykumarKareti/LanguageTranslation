@@ -3,7 +3,6 @@ from googletrans import Translator
 from gtts import gTTS  # Used for text to speech conversion
 
 recognizer = sr.Recognizer()
-
 with sr.Microphone() as source:
     print("Speak something in Tamil:")
     audio = recognizer.listen(source)
